@@ -1,0 +1,7 @@
+[html
+    [head [title "This is a webpage"]]
+    [body
+        [div (class="container")
+            [h1 "This is a simple webpage written in siml"]
+            [p "fire shit man.. this iz lit"]
+            [button (onClick="{increment(a)}" disabled styled="true") "incr"]]]]
