@@ -17,12 +17,12 @@ Compiled to HTML:
 </html>
 ```
 # Language Syntax
-Definiton: `[element-name <optional-attribute-set> <optional-children>]`
-  Where:
-    `<optional-attribute-set>`: () or (key="value") or nothing
-    `<optional-children>`: "text" or more siml
-Example:
-  `[element-name(attribute1="value" flag-attribute) "string" [child-element]]`
+Definiton: `[element-name <optional-attribute-set> <optional-children>]`  
+  Where:  
+    `<optional-attribute-set>`: () or (key="value") or nothing  
+    `<optional-children>`: "text" or more siml  
+Example:  
+  `[element-name(attribute1="value" flag-attribute) "string" [child-element]]`  
 
 # Build
 - Step 1: Have Nix
