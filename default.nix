@@ -1,6 +1,6 @@
-let 
+let
   pkgs = import <nixpkgs> { };
-in 
+in
   pkgs.haskellPackages.developPackage {
     root = ./.;
     modifier = drv:

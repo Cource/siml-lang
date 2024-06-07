@@ -1,5 +1,5 @@
 module ParseSiml
-  (parseSiml
+  ( parseSiml
   , Element(..)
   , Attribute
   ) where
