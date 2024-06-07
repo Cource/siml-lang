@@ -4,22 +4,25 @@ You might have guessed that 'ML' in SiML stands for 'Markup Language', Si is sup
 # Why?
 HTML is just too much characters. And, LISP just is really nice for markup.
 Siml looks like this:
-  [html
-  [head [title "An HTML page"]]
-  [body [h1 "This is a Heading"]]]
+```siml
+[html
+[head [title "An HTML page"]]
+[body [h1 "This is a Heading"]]]
+```
 Compiled to HTML:
-  <html>
-  <head><title>An HTML page</title></head>
-  <body><h1>This is a Heading</h1></body>
-  </html>
-
+```html
+<html>
+<head><title>An HTML page</title></head>
+<body><h1>This is a Heading</h1></body>
+</html>
+```
 # Language Syntax
-Definiton: [element-name <optional-attribute-set> <optional-children>]
+Definiton: `[element-name <optional-attribute-set> <optional-children>]`
   Where:
-    <optional-attribute-set>: () or (key="value") or nothing
-    <optional-children>: "text" or more siml
+    `<optional-attribute-set>`: () or (key="value") or nothing
+    `<optional-children>`: "text" or more siml
 Example:
-  [element-name(attribute1="value" flag-attribute) "string" [child-element]]
+  `[element-name(attribute1="value" flag-attribute) "string" [child-element]]`
 
 # Build
 - Step 1: Have Nix
